@@ -1,0 +1,43 @@
+{
+    "name": "colorcube/cc-feinfo",
+    "type": "typo3-cms-extension",
+    "description": "FE Debug/Info Output TYPO3 Extension",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "debug",
+        "development"
+    ],
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://github.com/colorcube/cc_feinfo",
+    "support": {
+        "issues": "https://github.com/colorcube/cc_feinfo/issues"
+    },
+    "authors": [
+        {
+            "name": "René Fritz",
+            "email": "r.fritz@colorcube.de",
+            "role": "Developer",
+            "homepage": "http://www.colorcube.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "typo3/cms-core": "^6.2 || ^7.6 || ^8.7",
+        "typo3-ter/typoscript-rendering": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Colorcube\\CcFeinfo\\": "Classes"
+        }
+    },
+    "replace": {
+        "cc-feinfo": "self.version",
+        "typo3-ter/cc-feinfo": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "cc_feinfo"
+        }
+    }
+}
