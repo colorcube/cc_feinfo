@@ -32,7 +32,7 @@
         }
     },
     "replace": {
-        "cc-feinfo": "self.version",
+        "cc_feinfo": "self.version",
         "typo3-ter/cc-feinfo": "self.version"
     },
     "extra": {
