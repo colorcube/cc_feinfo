@@ -5,7 +5,7 @@
 ---
 conf.py:
   copyright: 2004-2018
-  project: Bookmark Pages
+  project: FE Debug/Info output
   version: 1.1
   release: 1.1.0
   latex_documents:
