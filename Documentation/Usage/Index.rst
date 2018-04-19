@@ -23,7 +23,7 @@ Just insert the plugin on a page with an “insert plugin” record.
 2. Include TypoScript
 =====================
 
-Include the plugin into your typo3script template to make it visible on the whole site. Example:
+Include the plugin into your TypoScript template to make it visible on the whole site. Example:
 
 .. code-block:: typoscript
 
