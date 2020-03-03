@@ -24,7 +24,7 @@ Download and install the extension with the extension manager module.
 
 Add the plugin on a page ...
 
-Further information: https://docs.typo3.org/typo3cms/extensions/cc_feinfo/
+Further information: https://docs.typo3.org/p/colorcube/cc-feinfo/master/en-us/
 
 ## Contribute
 
